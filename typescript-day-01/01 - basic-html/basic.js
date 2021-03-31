@@ -8,3 +8,20 @@
 // the function addNumbers should return num1+num2
 
 // inside function handleClick call the addNumbers function and console log the result comingback from addNumbers
+
+let button = document.getElementById('btn');
+let input1 = document.getElementById('number1');
+let input2 = document.getElementById('number2');
+
+
+function addNumbers(num1, num2) {
+    return num1 + num2
+}
+
+
+const handleClick = () => {
+    console.log(addNumbers(+input1.value, +input2.value));
+    
+}
+
+document.getElementById('btn').addEventListener('click', handleClick)

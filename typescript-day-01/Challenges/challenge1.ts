@@ -2,13 +2,13 @@
 //Fix the error with out altering lines 10 through 14
 
 let myAddress: {
-  number: number;
+  number: number[];
   streetName: string;
   city: string;
   zipcode: number;
 } = {
-  number: "1245",
+  number: [1,2,4,5],
   streetName: "Coding Plains Ct",
   city: "Indianapolis",
-  zipcode: "46239",
+  zipcode: 46239
 };

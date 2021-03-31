@@ -28,6 +28,10 @@ const items = [
   },
 ];
 
+interface MainPageProps {
+  title:string;
+}
+
 const MainPage = () => {
   return (
     <Container>
